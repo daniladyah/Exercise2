@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Biodata</title>
+        <link rel="stylesheet" href="exe2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Send+Flowers&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two&family=Send+Flowers&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <center>
+            <h1>COLDPLAY</h1>
+            <ul>
+                <li>
+                    <h2 id="video">Video COLDPLAY</h2>
+                    <hr>
+                    <video controls width="700" height="500" loop autoplay muted preload="auto">
+                    <source src="videoplayback.mp4" type="video/mp4">
+                    <track kind="captions" src="videoplayback.mp4" srclang="en" label="English">
+                    </video>
+                </li>
+                <li>
+                    <h2 id="audio">Audio COLDPLAY</h2>
+                    <hr>
+                    <audio controls>
+                        <source src="coldplaymusic.mp3" type="audio/mp3">
+                    </audio>
+                </li>
+                <li>
+                    <h2 id="gambar">Gambar Responsive</h2>
+                    <hr>
+                    <picture>
+                        <source media="(max-width: 600px)"
+                            srcset="coldplay2.jpg">
+                        <source media="(max-width: 1200px)"
+                            srcset="coldplay.jpg">
+                        <img src="wihwr.jpg" alt="pic 1"
+                            style="width: 600pt;">
+                    </picture>
+                </li>   
+            </ul>
+        </center>
+        <div class="container">
+            <button class="btn btn-primary btn-next" onclick="location.href='form.html'">Next</button>
+        </div>
+        <script src="exe2.js"></script>
+    </body>
+</html>

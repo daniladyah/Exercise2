@@ -1,0 +1,22 @@
+body{
+    background-image: url(Coldplay\ 4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+}
+h2{
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgb(253, 251, 251);
+    background: purple;
+    color: rgb(249, 247, 247);
+    box-shadow: 1px 1px 1px plum;
+    border-radius: 100px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
